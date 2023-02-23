@@ -197,6 +197,11 @@ h2 {
   right: 50%;
   transition: 0.5s ease-in-out;
 }
+.navBar .navbar_with_bg {
+  background: var(--SecondaryColor);
+  padding: 0.5rem 1rem;
+  box-shadow: rgb(0, 0, 0) 0px 10px 15px -3px, rgb(0, 0, 0) 0px 4px 6px -2px;
+}
 
 .home {
   padding-top: 10rem;

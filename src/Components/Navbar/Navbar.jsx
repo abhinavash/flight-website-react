@@ -21,10 +21,16 @@ const Navbar = () => {
 
   //lets add backgroud color
   const [noBg ,addBg] = useState('navBarTwo');
-
+  
   const addBgColor = () => {
-    addBg('navBarTwo navbar_with_bg')
+    if(window.screenY >= 10){
+      console.log('print');
+      addBg('navBarTwo navbar_with_bg')
+    }else{
+      addBg('navBarTwo')
+    }
   }
+  window.addEventListener('scroll',addBgColor);
 
   return (
     <div className='navBar flex'>
@@ -46,7 +52,8 @@ const Navbar = () => {
 
       </div>
 
-      <div className="navBarTwo flex">
+      <div className={noBg}>
+        
         <div className="logoDiv">
           <img src={Flight} alt="" className='Logo'/>
         </div>
