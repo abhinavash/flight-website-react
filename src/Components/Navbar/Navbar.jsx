@@ -23,8 +23,8 @@ const Navbar = () => {
   const [noBg ,addBg] = useState('navBarTwo');
   
   const addBgColor = () => {
-    if(window.screenY >= 10){
-      console.log('print');
+    if(window.scrollY >= 10){
+      // console.log('print');
       addBg('navBarTwo navbar_with_bg')
     }else{
       addBg('navBarTwo')
