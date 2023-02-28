@@ -496,4 +496,27 @@ h2 {
 .travelers .travelersSection .travelersContainer .singleTraveler:hover .travelerImage {
   bottom: 110px;
   transition: 1s ease-in-out;
+}
+
+.subscribers .sectionContainer {
+  text-align: center;
+}
+.subscribers .sectionContainer .inputDiv {
+  margin-top: 1rem;
+  flex-direction: column;
+  background: var(--whiteColor);
+  border-radius: 1rem;
+}
+.subscribers .sectionContainer input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 1rem 0.5rem;
+}
+.subscribers .sectionContainer:placeholder {
+  font-size: 30px;
+  opacity: 0.5;
+}
+.subscribers .sectionContainer .btn {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

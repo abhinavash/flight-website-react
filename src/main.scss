@@ -572,3 +572,30 @@ h2{
 }
 
 
+// Subscriber styling
+
+.subscribers{
+    .sectionContainer{
+        text-align: center;
+        .inputDiv{
+            margin-top: 1rem;
+            flex-direction: column;
+            background: var(--whiteColor);
+            border-radius: 1rem;
+        }
+        input{
+            border: none;
+            outline: none;
+            background: transparent;
+            padding: 1rem .5rem;
+        }
+        &:placeholder{
+            font-size: 30px;
+            opacity: .5;
+        }
+        .btn{
+            width: 100%;
+        }
+    }
+}
+
