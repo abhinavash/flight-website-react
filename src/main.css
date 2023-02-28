@@ -334,4 +334,52 @@ h2 {
 }
 .support .sectionContainer .infoDiv .textDiv .singleInfo .colorTwo {
   background: var(--colorTwo);
+}
+
+.info .infoContainer {
+  background: var(--SecondaryColor);
+}
+.info .infoContainer .titleDiv {
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.info .infoContainer .cardDiv {
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+.info .infoContainer .cardDiv .singleCard {
+  background: var(--whiteColor);
+  padding: 3rem 2rem;
+  border-radius: 10rem;
+  gap: 1rem;
+  text-align: center;
+  margin: auto;
+  height: 320px;
+  width: 90%;
+  max-width: 250px;
+}
+.info .infoContainer .cardDiv .iconDiv {
+  justify-content: center;
+  margin: auto;
+  background-color: var(--PrimaryColor);
+  width: -moz-max-content;
+  width: max-content;
+  height: 55px;
+  padding: 1rem;
+  border-radius: 3rem;
+}
+.info .infoContainer .cardDiv .icon {
+  color: var(--whiteColor);
+}
+.info .infoContainer .cardDiv .cardTitle {
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.info .infoContainer .cardDiv .colorOne {
+  color: var(--colorOne);
+}
+.info .infoContainer .cardDiv .colorTwo {
+  color: var(--colorTwo);
 }/*# sourceMappingURL=main.css.map */
