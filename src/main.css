@@ -403,4 +403,97 @@ h2 {
   padding-bottom: 0.5rem;
   font-weight: 500;
   color: var(--blackColor);
+}
+
+.travelers .travelersSection {
+  text-align: center;
+}
+.travelers .travelersSection .travelersContainer {
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+.travelers .travelersSection .travelersContainer .singleTraveler {
+  position: relative;
+  height: 320px;
+  width: 85%;
+  max-width: 250px;
+  overflow: hidden;
+  border-radius: 10rem;
+  gap: 1rem;
+  margin: auto;
+}
+.travelers .travelersSection .travelersContainer .singleTraveler .destinationImage, .travelers .travelersSection .travelersContainer .singleTraveler .travelerImage, .travelers .travelersSection .travelersContainer .singleTraveler .travelerName {
+  position: absolute;
+}
+.travelers .travelersSection .travelersContainer .singleTraveler .destinationImage {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.travelers .travelersSection .travelersContainer .singleTraveler .travelerImage {
+  height: 50px;
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  bottom: 30px;
+  left: 40%;
+  transform: translateX(-50%);
+  border: 5px solid rgba(225, 225, 225, 0.637);
+  transition: var(--transition);
+  animation: animated 2.5s infinite;
+}
+@keyframes animated {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.travelers .travelersSection .travelersContainer .singleTraveler .travelerName {
+  bottom: -100%;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  background: var(--whiteColor);
+  padding: 1.5rem 1rem;
+  transition: var(--transition);
+  animation: animatedBorders 2.3s infinite;
+}
+.travelers .travelersSection .travelersContainer .singleTraveler .travelerName span {
+  display: block;
+  color: black;
+  font-weight: 700;
+}
+.travelers .travelersSection .travelersContainer .singleTraveler .travelerName p {
+  color: var(--PrimaryColor);
+  font-style: italic;
+}
+@keyframes animatedBorders {
+  0% {
+    border-radius: 0px;
+  }
+  50% {
+    border-radius: 2px;
+  }
+  100% {
+    border-radius: 0px;
+  }
+}
+.travelers .travelersSection .travelersContainer .singleTraveler:hover .travelerName {
+  bottom: 0;
+  transition: 1s ease-in-out;
+}
+.travelers .travelersSection .travelersContainer .singleTraveler:hover .travelerImage {
+  bottom: 110px;
+  transition: 1s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
