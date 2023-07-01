@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Paris from "../../assets/paris.jpg"
 const Lounge = () => {
   return (
     <div className='lounge container section'>
       <div className="sectionContainer grid">
         <div className="imgDiv">
-          <img src="" alt=""/>
+          <img src={Paris} alt="paris"/>
         </div>
         
         <div className="textDiv">
@@ -15,6 +15,12 @@ const Lounge = () => {
           <div className="singleGrid">
             <span className="gridTitle">
               Help through the airport
+            </span>
+            <p>You can also call airlines from your phone and book flight tickets to one of your favorite destination</p>
+          </div>
+           <div className="singleGrid">
+            <span className="gridTitle">
+              Care on the flight
             </span>
             <p>You can also call airlines from your phone and book flight tickets to one of your favorite destination</p>
           </div>

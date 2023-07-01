@@ -11,7 +11,7 @@ const Travlers = () => {
       <div className="travelersSection">
         <h2>Top Travelers of this months</h2>
 
-        <div className="travelersContainer grid">
+        <div className="travelersContainer ">
           <div className="singleTraveler">
             <img src={paris} alt="" className="destinationImage" />
             <div className="travelerDetails">
@@ -23,10 +23,7 @@ const Travlers = () => {
               <p>@obssolutions</p>
             </div>
           </div>
-          </div>      
-        </div>
-
-        <div className="travelersContainer grid">
+          </div>
           <div className="singleTraveler">
             <img src={paris} alt="" className="destinationImage" />
             <div className="travelerDetails">
@@ -38,10 +35,7 @@ const Travlers = () => {
               <p>@obssolutions</p>
             </div>
           </div>
-          </div>      
-        </div>
-
-        <div className="travelersContainer grid">
+          </div>  
           <div className="singleTraveler">
             <img src={paris} alt="" className="destinationImage" />
             <div className="travelerDetails">
@@ -53,11 +47,8 @@ const Travlers = () => {
               <p>@obssolutions</p>
             </div>
           </div>
-          </div>      
-        </div>
-
-        <div className="travelersContainer grid">
-          <div className="singleTraveler">
+          </div>  
+          {/* <div className="singleTraveler">
             <img src={paris} alt="" className="destinationImage" />
             <div className="travelerDetails">
             <div className="travelerPictures">
@@ -68,9 +59,8 @@ const Travlers = () => {
               <p>@obssolutions</p>
             </div>
           </div>
-          </div>      
-        </div>
-        
+          </div>        */}
+        </div>        
       </div>
     </div>
   );

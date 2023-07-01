@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const [active ,setActive] = useState('navBarMenu');
 
-  const showNavBar = () => {
+  const logicNavBar = () => {
     setActive('navBarMenu showNavBar')
   }
   const removeNavBar = () => {
@@ -77,10 +77,9 @@ const Navbar = () => {
             Contact
         </button>
 
-        <div onClick={showNavBar} className="toggleItem">
+        <div onClick={logicNavBar} className="toggleItem">
           <CgMenuGridO/>
         </div>
-
       </div>
     </div>
   )

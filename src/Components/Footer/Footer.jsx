@@ -14,7 +14,7 @@ const Footer = () => {
             <img src={Flight} alt="" className="Logo" />
           </div>
           <p>Your mind should be stronger than your feelings, fly!</p>
-          <div className="scoialIcon flex">
+          <div className="socialIcon flex">
             <CiFacebook className="icon" />
             <FiTwitter className="icon" />
             <AiOutlineYoutube className="icon" />

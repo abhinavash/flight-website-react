@@ -575,6 +575,7 @@ h2{
 // Subscriber styling
 
 .subscribers{
+    background: var(--SecondaryColor);
     .sectionContainer{
         text-align: center;
         .inputDiv{
@@ -813,6 +814,7 @@ h2{
                     max-width: 20%;
                 }
             }
+            
             .navBarMenu{
                 .menu{
                     flex-direction: row;
@@ -837,5 +839,149 @@ h2{
             }
         }
     }
+
+     //home section
+    .home{
+        .mainText{
+            width: 80%;
+        }
+        .homeImages{
+            .video{
+                border-radius: 15rem;
+            }
+            .plane{
+                position: absolute;
+                width: 80%;
+                top: -8%;
+            }
+        }
+        .videoDiv{
+            width: 60%;
+            .video{
+                border-radius: 15rem;
+            }
+        }
+    }
+
+     //search section
+     .search{
+        .sectionContainer{
+            .btns{
+                width: 70%;
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+            .seachInput{
+                grid-template-columns: repeat(4,1fr);
+                .singleInput{
+                    .texts{
+                        input{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+     //travel section
+     .travelers{
+        .travelersSection{
+            .travelersContainer{
+               
+                grid-template-columns: repeat(4,1fr);
+            }
+        }
+    }
+
+      //support 
+      .support{
+        .sectionContainer{
+            .infoDiv{
+                // grid-template-columns: repeat(2,1fr);
+                gap:2rem;
+                margin-top: 5rem;
+                .textDiv{
+                    margin-top: 2rem;
+                    grid-template-columns: repeat(3,1fr);
+                }
+            }
+        }
+    }
+
+       //info
+       .info{
+        .infoContainer{
+            padding: 0 6rem;
+            .titleDiv{
+               width: 90%;
+               margin: auto;
+               align-items: center;
+            }
+            .cardDiv{
+                grid-template-columns: repeat(3,1fr);
+                .singleCard{
+                    max-width: 260px;
+                    padding: 3rem ,1rem;
+                }
+            }
+        }
+    }
+    //lounge
+    .lounge{
+        .sectionContainer{ 
+            .imgDiv{
+                margin: auto;
+                img{
+                    width: 50%;
+                    max-width: 430px;
+                    border-radius: 40%;
+                }
+            }
+            grid-template-columns: repeat(2,1fr);
+            .textDiv{
+                grid-area: 1;
+                .grids{
+                    grid-template-columns: repeat(2,1fr);
+                }
+            }
+        }
+    }
+
+    
+    //travel section
+    .travelers{
+        .travelersSection{
+            .travelersContainer{
+                grid-template-columns: repeat(3,1fr);
+            }
+        }
+    }
+
+     //subscriber section
+     .subscribers{
+        .sectionContainer{
+            max-width: 80%;
+            margin: auto;
+
+            .inputDiv{
+                flex-direction: row;
+              justify-content:center ;
+                padding: 0.5rem;
+                border-radius: 3rem;
+                .btn{
+                    max-width: 15rem;
+                }
+            }
+        }
+    }
+
+    //footer
+    .footer {
+        .sectionContainer{
+
+            grid-template-columns: repeat(4,1fr);
+        }
+    }
 }
+
 
